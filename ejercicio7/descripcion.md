@@ -1,11 +1,13 @@
-# Ejercicio 2. Rotate Clockwise
+# Ejercicio 3. Mirror
 
 Los archivos PPM (con extensión `.ppm`) son una forma concisa y legible de representar imágenes en el computador (https://netpbm.sourceforge.net/doc/ppm.html), los cuales se pueden codificar en texto plano mediante la especificación P3, y en formato binario, por medio de la variante P6. En particular, los archivos P3 siguen el formato a continuación:
 
 Donde cada Pixel está constituido por los canales: Rojo, Verde y Azul.
 
-Tomando en cuenta las especificaciones técnicas del formato PPM descritos en el ejercicio Ejercicio 1. Nearest Neighbor Algorithm,
-implemente la operación rotación “hacia la derecha“, o rotación clock wise.
+Tomando en cuenta las especificaciones técnicas del formato PPM descritos en el Ejercicio 1. Nearest Neighbor Algorithm,
+implemente la operación “espejo“.
+
+Esta operación consiste en invertir el orden de uno de los ejes de la imagen.
 
 Del mismo modo, su programa deberá leer la imagen desde la entrada estándar y mostrar la imagen `.ppm` resultante en la salida estándar.
 
