@@ -1,14 +1,15 @@
-# Ejercicio 1. Nearest Neighbor Algorithm
+# Ejercicio 2. Rotate Clockwise
 
 Los archivos PPM (con extensión `.ppm`) son una forma concisa y legible de representar imágenes en el computador (https://netpbm.sourceforge.net/doc/ppm.html), los cuales se pueden codificar en texto plano mediante la especificación P3, y en formato binario, por medio de la variante P6. En particular, los archivos P3 siguen el formato a continuación:
 
 Donde cada Pixel está constituido por los canales: Rojo, Verde y Azul.
 
-Su trabajo como desarrollador consistirá en asistir al equipo artístico de la empresa de videojuegos en la que trabaja, de modo tal que cree un programa capaz de escalar o aumentar el tamaño de las imágenes con extensión `.ppm` que le estarán proporcionando continuamente.
+Tomando en cuenta las especificaciones técnicas del formato PPM descritos en el ejercicio 1,
+implemente la operación rotación “hacia la derecha“, o rotación clock wise.
 
-Todas las imágenes que recibirá usará el formato PPM tipo P3, y debido a que dichas imágenes conforman parte del medio artístico Pixel Art (Arte de Pixeles), deberá utilizar el algoritmo Nearest Neighbor para preservar la nitidez de la imagen. Este algoritmo consiste en tomar un pixel P de la imagen original y repetirlo en el eje de la altura y anchura tantas veces lo indique un factor de escalado E. Por ejemplo, si E = 2:
-
-Su programa deberá leer el factor de escalado E desde un archivo de configuración llamado: `escalado.conf` (recuerde que su programa se probará con distintos casos de prueba).
+Para realizar esta operación, debe realizar una transformación en los ejes de la imagen, lo cual
+se hace más relevante en caso de que el archivo original no posea una resolución cuadrada
+(por ejemplo, la imagen puede tener tamaño de 8x16 píxeles):
 
 Del mismo modo, su programa deberá leer la imagen desde la entrada estándar y mostrar la imagen `.ppm` resultante en la salida estándar.
 
