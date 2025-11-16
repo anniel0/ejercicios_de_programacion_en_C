@@ -19,7 +19,7 @@ Su tarea consiste en crear un programa llamado `01-cowsay.c` que dado un archivo
 ### Ejemplo de entrada y salida
 
 **Entrada:** `01-mensaje.txt`
-
+```
 ABC
 
 def
@@ -43,11 +43,11 @@ it's cinema
  There's a risk, an it's of rain
 
  it's cinema
-
+```
 
 
 **Salida:** `01-salida.txt`
-
+```
 *******************************************
 * ABC                                     *
 *                                         *
@@ -79,3 +79,4 @@ it's cinema
             (__)\       )\/\
                 ||----w |
                 ||     ||
+```
